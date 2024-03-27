@@ -1,6 +1,9 @@
 # Knee Care Pro
 The Knee Care Pro has a hardware and software component. There are respective repositories for each aspect.
 
+### Work Flow
+--> insert link to blog and other work documentation here
+
 ## Hardware
 https://github.com/KneeKarePro/bluetoothle.git
 
