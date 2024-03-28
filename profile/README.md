@@ -1,18 +1,28 @@
 # KneeCarePro
-KneeCarePro is a brace for ACL recovery patients that can upload their rotary data for a clinician to review and analyze.
+KneeCarePro is a brace for ACL recovery patients. The patient's brace will be able to upload their rotary data for a clinician to review.
 
-### Work Flow
---> insert link to blog and other work documentation here <--
+### Members
+Daniyal Ansari\
+Sebastian Lopez\
+Nicole Meers\
+Cole Rottenberg
 
 ## Hardware
-The hardware will sit on the brace itself. It will collect and upload the data to the web app.\
+The hardware will sit on the brace itself. It will collect and upload the data to the web app.
+
 ### Hardware Repository
-https://github.com/KneeKarePro/bluetoothle.git
+[Hardware Repository](https://github.com/KneeKarePro/bluetoothle.git)
 
 ## Web App
-The web app will store all of the data shared from the hardware. Patients and clinicians will be able to review their data.\
+The web app will store all of the data shared from the hardware. Patients and clinicians will be able to review their data.
+
 ### Software Repository
-https://github.com/KneeKarePro/WebApp.git
+[Software Repository](https://github.com/KneeKarePro/WebApp.git)
+
+
+## Work Flow
+--> insert link to blog and other work documentation here <--
+
 
 
 
