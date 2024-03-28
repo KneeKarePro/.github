@@ -1,4 +1,4 @@
-# KneeCarePro
+# Knee Care Pro
 KneeCarePro is a brace for ACL recovery patients. The patient's brace will be able to upload their rotary data for a clinician to review.
 
 ### Members
