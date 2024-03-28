@@ -11,7 +11,7 @@ Cole Rottenberg
 The hardware will sit on the brace itself. It will collect and upload the data to the web app.
 
 ### Hardware Repository
-[Hardware Repository](https://github.com/KneeKarePro/bluetoothle.git)
+[Hardware Repository](https://github.com/KneeKarePro/hw-system.git)
 
 ## Web App
 The web app will store all of the data shared from the hardware. Patients and clinicians will be able to review their data.
