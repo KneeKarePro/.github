@@ -8,7 +8,7 @@ Nicole Meers\
 Cole Rottenberg
 
 ## Hardware
-The hardware will sit on the brace itself. It will collect and upload the data to the web app.
+The hardware will sit on the brace itself. It will collect and upload the data from the brace to the web app.
 
 ### Hardware Repository
 [Hardware Repository](https://github.com/KneeKarePro/hw-system.git)
