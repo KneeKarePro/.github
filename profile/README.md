@@ -21,7 +21,7 @@ The web app will store all of the data shared from the hardware. Patients and cl
 
 
 ## Work Flow
---> insert link to blog and other work documentation here <--
+[Work Record Blog](https://kneekarepro.blogspot.com/)
 
 
 
