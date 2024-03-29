@@ -20,8 +20,8 @@ The web app will store all of the data shared from the hardware. Patients and cl
 [Software Repository](https://github.com/KneeKarePro/WebApp.git)
 
 
-## Work Flow
-[Work Record Blog](https://kneekarepro.blogspot.com/)
+## Work Log
+[Work Record Log](https://kneekarepro.blogspot.com/)
 
 
 
