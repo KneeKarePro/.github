@@ -4,7 +4,6 @@ KneeCarePro is a brace for ACL recovery patients. The patient's brace will be ab
 ### Members
 Daniyal Ansari\
 Sebastian Lopez\
-Nicole Meers\
 Cole Rottenberg
 
 ## Hardware
