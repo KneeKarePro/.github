@@ -44,7 +44,7 @@ KneeCarePro is a brace for ACL recovery patients. The patient's brace will be ab
       <a href="#time">Time Worked</a>
     </li>
     <li>
-      <a href="#bugs">Known Bugs and Development Horizon</a>
+      <a href="#bugs-and-dev">Known Bugs and Development Horizon</a>
     </li>
   </ol>
 </details>
@@ -193,10 +193,76 @@ KneeKarePro addresses the need for accurate, continuous data in ACL rehabilitati
   <h2> Milestone Work </h2>
 </div>
 
+The following milestones have been completed for the KneeKarePro release candidate:
+1. ### UI/UX Improvements
+  - Redesigned data cards and interactive charts for clearer data presentation and improved readability.
+  -	Simplified navigation menus to enhance usability, with core functions more accessible from a centralized location.
+  -	Added status indicators for BLE connectivity and battery level to provide users with real-time device status updates.
+2. ### Backend Enhancements
+  - Implemented faster and more responsive [FastAPI](https://fastapi.tiangolo.com/) backend to handle user data more efficiently.
+  - Reorganized endpoint structure through the use of [Router](https://fastapi.tiangolo.com/tutorial/bigger-applications/) to improve code organization and scalability.
+  - Refactored data analytics functions to optimize performance and reduce processing time for large datasets. This was done through asynchronous processing and parallelization of data computations.
+3. ### Device and Hardware Adjustments
+  - Enhanced BLE communication protocol to improve data transmission reliability and reduce data loss.
+  - Optimized power management features to extend battery life and reduce power consumption during data streaming.
+  -	Improved the casing design, smoothing edges and reinforcing the Velcro attachment for secure and comfortable use.
+4. ### Aesthetic Enhancements
+  - Updated frontend UI to resolve minor cosmetic issues, ensuring uniform icon sizes, color schemes, and font alignment.
+  -	Finalized casing aesthetics to provide a professional and cohesive appearance in line with medical device standards.
+
 <div align="center" id="time">
   <h2> Time Worked </h2>
 </div>
 
-<div align="center" id="bugs">
+**Since Beta Presentation**
+### Plan of Action (10/22) 12 Total team hours: 
+Here we discussed what it was we needed to polish up in time for the Release Candidate Submission. We believed that our systems worked as intended and our functionality was practically where we wanted it to be, therefore it was up to us to make the project better rather than fixing anything.
+
+### Begin Polishing (10/24) 10 Total team hours: 
+We all had midterms which it made it very difficult for us to work as much as we would have liked, however we worked over zoom to touch up some of the parts that needed some polishing. This included perfecting the BLE connection, beginning initial calculations/diagrams for making the device attachable, and making the user experience as seamless as possible.
+
+### More Polishing + Casing Development/Printing (10/29) 33 Total team hours:
+This began a week of lots of hard work. We now had all of our parts working absolutely perfectly, now it was just a matter of continuing to make it better. This meant a lot of research. Between beginning the development of making the device an attachment and finding new ways to make the experience more seamless through the use of ap possible desktop app, and more features such as password security and could management for data; a lot of work was done.
+
+### Adding to Backend + More Casing Development (10/30) 15 Total team hours: 
+The brace was now beginning to look like an attachment, there was development of a battery pack as well and it should be a 3-step application either next week or the week after. The backend is now fully operational and up to standard at this point.
+
+### Meeting with Carsten + Documentation (10/31-11/01) 27 Total team hours: 
+Our meeting with Carsten allowed us to see where we are as a team and how our project is looking. We then worked on the documentation for the Release Candidate. 
+
+<div align="center" id="bugs-and-dev">
   <h2> Known Bugs and Development Horizon </h2>
 </div>
+
+The KneeKarePro system is currently in the final stages of development, with the following known bugs and future development plans:
+
+### Known Bugs
+1. #### Intermittent Data Display Lag
+  - **Description**: Occasional delays in data updating on the frontend when BLE signal strength is weak.
+  - **Impact**: Minimal; does not affect data accuracy but may cause slight delays in real-time display.
+  -	**Workaround**: Ensuring close proximity between the device and the local device minimizes lag
+2. #### UI/UX Inconsistencies on Mobile Devices
+  - **Description**: Minor layout inconsistencies observed on screens smaller than 5 inches, especially for interactive charts.
+  -	**Impact**: Limited to users accessing the system on small displays; no effect on core functionality.
+  -	**Workaround**: Accessing the UI on larger screens or devices with responsive capabilities resolves this issue.
+
+### Development Horizon
+1. #### Enhanced Data Visualization
+  - **Objective**: Implement additional data visualization features, such as 3D motion tracking and interactive heatmaps, to provide more comprehensive insights.
+  - **Timeline**: 2-3 weeks
+
+2. #### User Authentication and Data Security
+  - **Objective**: Integrate user authentication and data encryption features to enhance data security and user privacy. This will done through password hashing, JWT tokens, and OAuth2.
+  - **Timeline**: 1-2 weeks
+
+3. #### Device Data Persistence
+  - **Objective**: Implement local data storage on the hardware device to allow data collection without a connected device. This will be done through the use of an SD card.
+  - **Timeline**: 1-2 weeks
+
+4. #### Bluetooth Classic Integration
+  - **Objective**: Integrate Bluetooth Classic protocol to improve data transmission speed and reliability for connected devices.
+  - **Timeline**: 1-2 weeks
+
+5. #### Device RTC and Data Synchronization
+  - **Objective**: Integrate a real-time clock (RTC) module to timestamp data points and synchronize data with the backend server.
+  - **Timeline**: 1-2 weeks
