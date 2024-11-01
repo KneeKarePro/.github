@@ -168,7 +168,7 @@ The KneeKarePro system integrates the following key features:
 - [x] **Adaptable Hardware**: The KneeKarePro system is designed to be adaptable to different hardware configurations and form factors.
 - [x] **Low-Power Consumption**: The KneeKarePro system is designed to be powered by a rechargeable battery for ease of use and portability.
 
-<div align="center">
+<div align="center" id="intended-impact">
   <h2> Intended Impact </h2>
 </div>
 
@@ -178,11 +178,16 @@ KneeKarePro addresses the need for accurate, continuous data in ACL rehabilitati
   <h2> Repositories </h2>
 </div>
 
-- [Firmware Repository](https://github.com/KneeKarePro/KneeKareProFirmware)
-- [Hardware + STL Repository]()
-- [Data Streamer Repository]()
-- [Backend Repository]()
-- [Web Application Repository]()
+The following repositories are associated with the KneeKarePro project and are being actively developed:
+
+- [Firmware](https://github.com/KneeKarePro/KneeKareProFirmware)
+- [Hardware + STL](https://github.com/KneeKarePro/SebasHardware)
+- [Data Streamer](https://github.com/KneeKarePro/bt_test)
+- [Backend](https://github.com/KneeKarePro/KneeKareBackend)
+- [Web Application](https://github.com/KneeKarePro/WebApp)
+
+The following repositories are associated with the KneeKarePro project however, are **not being actively developed**:
+- [Deprecated Backend](https://github.com/KneeKarePro/FlaskBackend)
 
 <div align="center" id="instructions">
   <h2> Instructions </h2>
