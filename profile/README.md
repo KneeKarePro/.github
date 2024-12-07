@@ -2,6 +2,9 @@
   <h1>KneeKarePro Production Release</h1>
   <h2><i>ACL Recovery Brace</i></h2>
 </div>
+
+![KneeKarePro](photo.jpg)
+
 KneeCarePro is a brace for ACL recovery patients. The patient's brace will be able to upload their rotary data for a clinician to review.
 
 <!-- Table of Contents -->
