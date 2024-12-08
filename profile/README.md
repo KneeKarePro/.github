@@ -10,6 +10,7 @@
 KneeCarePro is a brace for ACL recovery patients. The patient's brace will be able to upload their rotary data for a clinician to review.
 
 <!-- Table of Contents -->
+
 - [Overview](#overview)
 - [User Experience](#ui)
   - [Interface](#interface)
@@ -41,9 +42,7 @@ On the software side, the frontend was designed to be straightforward and easy t
 
 While the current production release does not include a dedicated mobile application, the framework developed during this phase lays a strong foundation for future app development. This addition, while technically straightforward, was deprioritized in favor of refining the existing features and ensuring a polished release.
 
-The team's focus on creating a user-friendly experience ensures that the production release of KneeKarePro is intuitive, accessible, and effective for its intended users, supporting their rehabilitation goals with minimal barriers.
-
-The user interaction with Knee Kare device was redesigned and pivoted to a persistent and easily accessible mode. The hardware and firmware were redesigned allowing for a more hands-off approach
+The team's focus on creating a user-friendly experience ensures that the production release of KneeKarePro is intuitive, accessible, and effective for its intended users, supporting their rehabilitation goals with minimal barriers. The user interaction with Knee Kare device was redesigned and pivoted to a persistent and easily accessible mode. The hardware and firmware were redesigned allowing for a more hands-off approach
 
 <div align="center" id="interface">
   <h3> Interface </h3>
@@ -54,7 +53,6 @@ The production release of KneeKarePro features a polished and user-friendly inte
 The software frontend provides intuitive navigation, with clearly labeled controls and accessible features such as real-time angle measurements and CSV file downloads. Consistent visual cues highlight active states and guide users through their interactions, enhancing clarity and usability.
 
 Every interface element was tested extensively to ensure it functions smoothly and meets user needs. While a mobile application is not yet available, the current web-based interface delivers all core functionalities reliably, supporting a seamless user experience.
-
 
 <div align="center" id="nav">
   <h3> Navigation </h3>
@@ -89,7 +87,6 @@ The simplicity of the interface ensures that users are presented with only the n
 On the hardware side, data is logged and stored in real time, with seamless synchronization between the device and the frontend interface. The focus on reliability and simplicity ensures that both clinicians and patients can interact with the system without encountering technical difficulties or delays.
 Through rigorous testing and attention to detail, the KneeKarePro system ensures a responsive and efficient experience, supporting the needs of its users without unnecessary complexity.
 
-
 <div align="center" id="bq">
   <h2>Build Quality</h2>
 </div>
@@ -116,7 +113,6 @@ The KneeKarePro device features a polished design, with a clean and professional
 
 The production release of KneeKarePro demonstrates the team's commitment to delivering a reliable, consistent, and well-designed system that meets the demands of ACL rehabilitation with a professional and polished final product.
 
-
 <div align="center" id="features">
   <h2> Features </h2>
 </div>
@@ -128,25 +124,25 @@ The production release of KneeKarePro incorporates all essential functionalities
 </div>
 
 - **Clinician and Patient Interfaces**: The web-based frontend includes distinct sections for clinicians and patients. Clinicians can monitor patient progress with detailed data visualizations and reports, while patients can track their rehabilitation goals in real time.
--	**Modular Hardware Design**: The device attaches seamlessly to any standard knee brace, providing broad compatibility. Assembly is straightforward, with step-by-step instructions ensuring users can set up the device independently.
--	**Local Network Connectivity**: The system establishes a local network, allowing users to connect directly to the device without requiring internet access. This ensures reliable functionality in various environments.
--	**CSV Data Export**: Users can download rehabilitation data as a CSV file, making it easy to analyze progress or share data with clinicians.
+- **Modular Hardware Design**: The device attaches seamlessly to any standard knee brace, providing broad compatibility. Assembly is straightforward, with step-by-step instructions ensuring users can set up the device independently.
+- **Local Network Connectivity**: The system establishes a local network, allowing users to connect directly to the device without requiring internet access. This ensures reliable functionality in various environments.
+- **CSV Data Export**: Users can download rehabilitation data as a CSV file, making it easy to analyze progress or share data with clinicians.
 
 <div align="center" id="perstate">
   <h3> Persistent State </h3>
 </div>
 
--	**Data Logging**: The ESP32 microcontroller logs time-stamped knee angle data to the SD card, ensuring data persistence even in the absence of a frontend connection.
--	**Data Synchronization**: The system automatically updates the frontend with the latest data stored on the SD card, ensuring that users always have access to accurate and up-to-date information.
--	**State Management**: Changes in user input or system status are reflected in real time, ensuring consistency between the device, backend, and frontend.
+- **Data Logging**: The ESP32 microcontroller logs time-stamped knee angle data to the SD card, ensuring data persistence even in the absence of a frontend connection.
+- **Data Synchronization**: The system automatically updates the frontend with the latest data stored on the SD card, ensuring that users always have access to accurate and up-to-date information.
+- **State Management**: Changes in user input or system status are reflected in real time, ensuring consistency between the device, backend, and frontend.
 
 <div align="center" id="internal">
   <h3> Internal Systems </h3>
 </div>
 
--	**Data Processing**: Real-time data captured by the potentiometer is processed by the ESP32 microcontroller and stored locally. This ensures accuracy and reliability before the data is transmitted to the frontend.
--	**Backend Integration**: The backend processes the stored data and provides API endpoints that support frontend functionality. This includes enabling CSV downloads and displaying visualizations.
--	**System Robustness**: All internal processes were tested extensively to handle edge cases, such as sudden disconnections or corrupted data. The system gracefully recovers from these scenarios without loss of functionality.
+- **Data Processing**: Real-time data captured by the potentiometer is processed by the ESP32 microcontroller and stored locally. This ensures accuracy and reliability before the data is transmitted to the frontend.
+- **Backend Integration**: The backend processes the stored data and provides API endpoints that support frontend functionality. This includes enabling CSV downloads and displaying visualizations.
+- **System Robustness**: All internal processes were tested extensively to handle edge cases, such as sudden disconnections or corrupted data. The system gracefully recovers from these scenarios without loss of functionality.
 
 <div align="center" id="repositories">
   <h2> Repositories </h2>
@@ -171,4 +167,4 @@ The following repositories are associated with the KneeKarePro project and are b
 The following milestones have been completed for the KneeKarePro production release:
 
 1. ### Firmware Refactor
-The firmware for the Knee Kare device was redesigned to transmit sensor data over HTTP and a self-hosted access point. The refactor also move the firmware from an Arduino base to a FreeRTOS base allowing for a more reactive performance while utilizing more cores.
+   The firmware for the Knee Kare device was redesigned to transmit sensor data over HTTP and a self-hosted access point. The refactor also move the firmware from an Arduino base to a FreeRTOS base allowing for a more reactive performance while utilizing more cores.
